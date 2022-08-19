@@ -1,0 +1,32 @@
+
+
+.navbar-brand{
+    margin-left: 10px;
+}
+.navbar-nav{
+    margin-left: 980px;
+}
+#div1{
+    background-color: black;
+    color: white;
+    height: 65vh;
+}
+.txt1{
+    font-weight: 500;
+    font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    float: inline-start;
+    margin-left: 25px;
+   
+}
+.txt2{
+    margin-left: 25px;
+}
+.p1{
+    height: 300px;
+    float: right;
+}
+#btn1{
+    margin-left: 25px;
+    border-radius: 10%;
+}
