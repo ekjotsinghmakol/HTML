@@ -1,0 +1,29 @@
+<div>
+  <app-hello></app-hello>
+</div>
+<br><br>
+<a [routerLink]="['/shoelink']"> <button class="btn btn-dark" onclick="">SNEAKERS</button> </a><br><br>
+<!-- <a [routerLink]="['/shoedetailslink']"><button class="btn btn-dark">GET DETAILS</button> </a> -->
+
+<div>
+  <router-outlet></router-outlet>
+
+  <table>
+    <thead>
+      <tr>
+        <th>COMPANY</th>
+        <th>SHOE_ID</th>
+        <th>PRICE</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let shoe of shoes">
+        <td>{{shoe.COMPANY}}</td>
+        <td>{{shoe.SHOE_ID}}</td>
+        <td>{{shoe.PRICE}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
