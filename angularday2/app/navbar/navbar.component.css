@@ -1,0 +1,17 @@
+.div2{
+margin-left: 250px;
+}
+
+#nav1{
+  color: black;
+}
+
+.navbar-dark .nav-item .nav-link {
+  color: black;
+}
+.navbar-dark .nav-item .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  border-radius: 0.25rem;
+  color: red;
+}
